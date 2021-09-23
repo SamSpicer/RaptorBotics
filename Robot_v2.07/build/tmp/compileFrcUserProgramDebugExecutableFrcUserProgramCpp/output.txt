@@ -1,0 +1,47 @@
+See file:///C:/Users/mates/OneDrive/Documents/Robot_v2.07/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling Robot.cpp successful.
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:116:98: warning: 'frc::RobotDrive::RobotDrive(frc::SpeedController&, frc::SpeedController&, frc::SpeedController&, frc::SpeedController&)' is deprecated: Use DifferentialDrive or MecanumDrive classes instead. [-Wdeprecated-declarations]
+   frc::RobotDrive m_driver{m_leftFrontMotor, m_leftBackMotor, m_rightFrontMotor, m_rightBackMotor};
+                                                                                                  ^
+In file included from C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:46:0:
+C:\Users\mates\.gradle\caches\transforms-2\files-2.1\f78589b1f173909e18ca9d5419a0a5fa\wpilibc-cpp-2020.2.2-headers/frc/RobotDrive.h:120:3: note: declared here
+   RobotDrive(SpeedController& frontLeftMotor, SpeedController& rearLeftMotor,
+   ^~~~~~~~~~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp: In member function 'void Robot::Update_Limelight_Tracking()':
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:208:16: warning: unused variable 'DESIRED_TARGET_AREA' [-Wunused-variable]
+   const double DESIRED_TARGET_AREA = 10.0;
+                ^~~~~~~~~~~~~~~~~~~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:209:16: warning: unused variable 'MAX_DRIVE' [-Wunused-variable]
+   const double MAX_DRIVE = 0.8;
+                ^~~~~~~~~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:210:16: warning: unused variable 'MAX_STEER' [-Wunused-variable]
+   const double MAX_STEER = 1.0;
+                ^~~~~~~~~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:217:10: warning: unused variable 'ta' [-Wunused-variable]
+   double ta = table ->GetNumber("ta", 0.0);
+          ^~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp: In member function 'void Robot::LimeLightAutonomous()':
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:248:10: warning: unused variable 'tx' [-Wunused-variable]
+   double tx = table ->GetNumber("tx", 0.0 );
+          ^~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:249:10: warning: unused variable 'ty' [-Wunused-variable]
+   double ty = table ->GetNumber("ty", 0.0);
+          ^~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:250:10: warning: unused variable 'ta' [-Wunused-variable]
+   double ta = table ->GetNumber("ta", 0.0);
+          ^~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:251:10: warning: unused variable 'tv' [-Wunused-variable]
+   double tv = table ->GetNumber("tv", 0.0);
+          ^~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp: In member function 'virtual void Robot::TeleopPeriodic()':
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:375:8: warning: unused variable 'reverseloader' [-Wunused-variable]
+   bool reverseloader = m_mainJoystick.GetRawButton(4);
+        ^~~~~~~~~~~~~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:393:10: warning: unused variable 'elevatorTurn' [-Wunused-variable]
+   double elevatorTurn = elevatorSpeed;
+          ^~~~~~~~~~~~
+C:\Users\mates\OneDrive\Documents\Robot_v2.07\src\main\cpp\Robot.cpp:394:10: warning: unused variable 'loaderspeed' [-Wunused-variable]
+   double loaderspeed = loaderSpeed;
+          ^~~~~~~~~~~
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///C:/Users/mates/OneDrive/Documents/Robot_v2.07/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.

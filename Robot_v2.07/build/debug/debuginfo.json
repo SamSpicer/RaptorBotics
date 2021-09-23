@@ -1,0 +1,58 @@
+[
+  {
+    "artifact": "frcCpp (in project Robot_v2.01)",
+    "target": "roborio",
+    "component": "frcUserProgram",
+    "debugfile": "frcCpp_roborio.debugconfig",
+    "language": "cpp"
+  },
+  {
+    "artifact": "frcCpp (in project Robot_v2.02)",
+    "target": "roborio",
+    "component": "frcUserProgram",
+    "debugfile": "frcCpp_roborio.debugconfig",
+    "language": "cpp"
+  },
+  {
+    "artifact": "frcCpp (in project Robot_v2.03)",
+    "target": "roborio",
+    "component": "frcUserProgram",
+    "debugfile": "frcCpp_roborio.debugconfig",
+    "language": "cpp"
+  },
+  {
+    "artifact": "frcCpp (in project Robot_v2.04)",
+    "target": "roborio",
+    "component": "frcUserProgram",
+    "debugfile": "frcCpp_roborio.debugconfig",
+    "language": "cpp"
+  },
+  {
+    "artifact": "frcCpp (in project Robot_v2.05)",
+    "target": "roborio",
+    "component": "frcUserProgram",
+    "debugfile": "frcCpp_roborio.debugconfig",
+    "language": "cpp"
+  },
+  {
+    "artifact": "frcCpp (in project Robot_v2.06)",
+    "target": "roborio",
+    "component": "frcUserProgram",
+    "debugfile": "frcCpp_roborio.debugconfig",
+    "language": "cpp"
+  },
+  {
+    "artifact": "frcCpp (in project Robot_v2.07)",
+    "target": "roborio",
+    "component": "frcUserProgram",
+    "debugfile": "frcCpp_roborio.debugconfig",
+    "language": "cpp"
+  },
+  {
+    "artifact": "frcCpp (in project Robot_v2)",
+    "target": "roborio",
+    "component": "frcUserProgram",
+    "debugfile": "frcCpp_roborio.debugconfig",
+    "language": "cpp"
+  }
+]
